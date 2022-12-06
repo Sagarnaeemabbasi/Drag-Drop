@@ -1,0 +1,36 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+    background-color: black;
+}
+
+.imgBox { 
+    height: 140px;
+    width: 140px;
+    position: relative;
+    background-image: url("pic.jpg" )  ;
+    cursor: pointer;
+    top: 9px;
+    left: 10px;
+}
+.hide{
+    display: none;
+}
+.whitebox {
+    height: 160px;
+    width: 160px;
+    background-color: white;
+    margin: 7px;
+    display: inline-block;
+}
+.dragLeave{
+    border: 3px solid rgb(108, 189, 17);
+}
+.dragEnter{
+    background-color: gray;
+    border: dashed;
+}
